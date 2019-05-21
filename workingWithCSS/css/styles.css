@@ -71,6 +71,7 @@ header, section, footer, aside, nav, article, figure, figcaption {
 				color: #de6581;
 				text-decoration: none;}
 			h1, h2, h3 {
+                font-family: 'Stylish', sans-serif;/*changing heading fonts to  Stylish Google Font family*/
 				font-weight: normal;}
 			h2 {
 				margin: 10px 0px 5px 0px;
