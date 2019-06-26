@@ -486,6 +486,13 @@ mark,
   content: "\2014\00A0";
 }
 
+.portfolio-lead {
+  font-style: normal;
+  font-size: 3.5rem;
+  font-weight: 300;
+  text-transform: uppercase;
+}
+
 .img-fluid {
   max-width: 100%;
   height: auto;
