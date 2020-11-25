@@ -299,8 +299,27 @@
       <!-- Contact Section Form -->
       <div class="row">
         <div class="col-lg-8 mx-auto">
+            <!-- START NEW FORM TEST -->
+            
+<div class="container">
+	<form method="POST" action="send.php">
+		<div><label>Your Name:</label></div>
+		<div><input type="text" name="myName" class="form-control" /></div>
+		<div><label>Your Email:</label></div>
+		<div><input type="text" name="myEmail" class="form-control" /></div>
+		
+		<div><label>Message:</label></div>
+		<div><textarea cols="40" rows="5" name="myMessage" class="form-control"></textarea></div>
+		<div class="float-right mt-2">
+			<input type="submit" value="Send" class="btn btn-primary" />
+		</div>
+	</form>
+</div>
+            
+            <!-- END NEW FORM TEST -->
+        
           <!-- To configure the contact form email address, go to mail/contact_me.php and update the email address in the PHP file on line 19. -->
-          <form name="sentMessage" id="contactForm" novalidate="novalidate">
+          <!--<form name="sentMessage" id="contactForm" novalidate="novalidate">
             <div class="control-group">
               <div class="form-group floating-label-form-group controls mb-0 pb-2">
                 <label>Name</label>
@@ -334,7 +353,7 @@
             <div class="form-group">
               <button type="submit" class="btn btn-primary btn-xl" id="sendMessageButton">Send</button>
             </div>
-          </form>
+          </form>-->
         </div>
       </div>
 
