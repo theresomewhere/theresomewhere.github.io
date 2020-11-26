@@ -10624,6 +10624,7 @@ a.text-dark:hover, a.text-dark:focus {
 .btn-xl {
   padding: 1rem 1.75rem;
   font-size: 1.25rem;
+  margin-top: 20px;
 }
 
 .btn-social {
@@ -10818,7 +10819,6 @@ a.text-dark:hover, a.text-dark:focus {
 .floating-label-form-group {
   position: relative;
   border-bottom: 1px solid #e9ecef;
-  margin-bottom: 20px;
 }
 
 .floating-label-form-group input,
