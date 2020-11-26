@@ -19,7 +19,7 @@ button{
 }
 img,
 .image{
-    width: 100vw;
+    width: 80vw;
     max-width: 300px;
     margin: 1vh 1vw;
 }
