@@ -10818,6 +10818,7 @@ a.text-dark:hover, a.text-dark:focus {
 .floating-label-form-group {
   position: relative;
   border-bottom: 1px solid #e9ecef;
+  margin-bottom: 20px;
 }
 
 .floating-label-form-group input,
