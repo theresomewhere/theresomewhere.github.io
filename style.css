@@ -16,7 +16,7 @@ b{
 }
 
 .article-align {
-    text-align: left;
+    text-align: left !important;
 }
 
 button{
