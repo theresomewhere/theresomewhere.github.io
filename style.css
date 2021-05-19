@@ -14,6 +14,11 @@ b{
     display: block;
     padding: 10px;
 }
+
+.article-align {
+    text-align: left;
+}
+
 button{
     padding: 5px 10px;
 }
