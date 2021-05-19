@@ -22,16 +22,16 @@ b{
 button{
     padding: 5px 10px;
 }
-/*img,*/
+img,
 .image{
     width: 60vw;
-    /*max-width: 300px;*/
+    max-width: 300px;
     margin: 1vh 1vw;
 }
 .image{
     display: inline-block;
-    /*height: 20vw;
-    max-height: 200px;*/
+    height: 20vw;
+    max-height: 200px;
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
