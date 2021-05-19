@@ -39,3 +39,8 @@ img,
 .spotlight.image{
     cursor: pointer;
 }
+
+.research-image {
+    width: 100% !important;
+    height: auto !important;
+}
