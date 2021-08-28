@@ -37,8 +37,11 @@ img,
     background-size: cover;
 }
 
-img.wide{
+img,
+.image
+.wide{
     width: 600px !important;
+    max-width: 600px !important;
 }
 
 .spotlight.image{
