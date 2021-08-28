@@ -37,8 +37,7 @@ img,
     background-size: cover;
 }
 
-img, 
-.wide{
+img.wide{
     width: 600px !important;
 }
 
