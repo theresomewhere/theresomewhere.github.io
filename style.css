@@ -37,13 +37,6 @@ img,
     background-size: cover;
 }
 
-img,
-.image
-.wide{
-    width: 600px !important;
-    max-width: 600px !important;
-}
-
 .spotlight.image{
     cursor: pointer;
 }
