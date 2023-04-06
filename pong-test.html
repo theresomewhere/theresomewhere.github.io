@@ -1,0 +1,107 @@
+  <!DOCTYPE html>
+
+
+  <style>
+  #game {
+    width: 800px;
+    height: 600px;
+    background-color: black;
+  }
+  </style>
+
+  <script>
+  
+  // Set up the canvas
+  var canvas = document.getElementById('game');
+  var context = canvas.getContext('2d');
+  
+  // Set up the ball and paddles
+  var ball = {
+    x: canvas.width / 2,
+    y: canvas.height / 2,
+    radius: 10,
+    speed: 5,
+    dx: 5,
+    dy: 5
+  };
+  
+  var paddle1 = {
+    x: 50,
+    y: canvas.height / 2 - 50,
+    width: 10,
+    height: 100,
+    speed: 5,
+    score: 0
+  };
+  
+  var paddle2 = {
+    x: 740,
+    y: canvas.height / 2 - 50,
+    width: 10,
+    height: 100,
+    speed: 5,
+    score: 0
+  };
+  
+  // Draw the ball and paddles
+  function drawBall() {
+    context.beginPath();
+    context.arc(ball.x, ball.y, ball.radius, 0, Math.PI * 2);
+    context.fillStyle = 'white';
+    context.fill();
+    context.closePath();
+  }
+  
+  function drawPaddle(paddle) {
+    context.beginPath();
+    context.rect(paddle.x, paddle.y, paddle.width, paddle.height);
+    context.fillStyle = 'white';
+    context.fill();
+    context.closePath();
+  }
+  
+  // Move the ball and paddles
+  function moveBall() {
+    ball.x += ball.dx;
+    ball.y += ball.dy;
+  
+    if (ball.y + ball.radius > canvas.height || ball.y - ball.radius < 0) {
+      ball.dy = -ball.dy;
+    }
+  
+    if (ball.x + ball.radius > canvas.width) {
+      paddle1.score++;
+      resetBall();
+    }
+  
+    if (ball.x - ball.radius < 0) {
+      paddle2.score++;
+      resetBall();
+    }
+  
+    if (ball.x + ball.radius > paddle2.x && ball.y > paddle2.y && ball.y < paddle2.y + paddle2.height) {
+      ball.dx = -ball.dx;
+      playSound();
+    }
+  
+    if (ball.x - ball.radius < paddle1.x + paddle1.width && ball.y > paddle1.y && ball.y < paddle1.y + paddle1.height) {
+      ball.dx = -ball.dx;
+      playSound();
+    }
+  }
+  
+  function movePaddle(paddle) {
+    if (paddle.y + paddle.height + paddle.speed < canvas
+  </script>  
+  <html>
+    
+    <head>
+      <meta charset="utf-8">
+      <title>Pong</title>
+      <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+      <canvas id="game"></canvas>
+      <script src="pong.js"></script>
+    </body>
+  </html>
