@@ -406,6 +406,8 @@ h6, .h6 {
 }
 
 .lead-left {
+  font-size: 1.25rem;
+  font-weight: 300;
   text-align: left;
 }
 
