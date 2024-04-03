@@ -10576,6 +10576,11 @@ a.text-dark:hover, a.text-dark:focus {
   line-height: 2rem;
 }
 
+.page-section .page-section-heading-experience {
+  font-size: 2.25rem;
+  line-height: 2.5rem;
+}
+
 @media (min-width: 992px) {
   .page-section .page-section-heading {
     font-size: 3rem;
