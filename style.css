@@ -15,6 +15,13 @@ b{
     padding: 10px;
 }
 
+.lead-left-grey {
+    font-size: 1.25rem;
+    font-weight: 300;
+    text-align: left;
+    font-color: #343a40;
+  }
+
 .article-align {
     text-align: left !important;
 }
