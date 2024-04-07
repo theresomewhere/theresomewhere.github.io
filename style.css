@@ -7,20 +7,56 @@ html, body{
     font-family: Aral, Helvetica, sans-serif;
     text-align: center;
 }
+
 a{
     display: inline-block;
 }
+
 b{
     display: block;
     padding: 10px;
 }
 
+h3, .h3 {
+    margin-top:2.75rem;
+    margin-bottom: 2rem;
+    color:grey;
+  }
+
 .portfolio-intro-grey {
     font-size: 1.25rem;
     font-weight: 400;
     text-align: center;
-    text-color: #343a40;
+    color: #343a40;
   }
+
+  .modal-grey-left {
+    font-size: 1.25rem;
+    font-weight: 400;
+    text-align: left;
+    color: #343a40;
+  }
+
+  .modal-dialog-quote {
+    font-size: 1.25rem;
+    font-weight: 400;
+    text-align: center;
+    color: #1abc9c;
+  }
+
+  .modal-dialog-quote-big {
+    font-size: 2.25rem;
+    font-weight: 600;
+    text-align: center;
+    color:#1abc9c;
+  }
+
+  ul {
+    text-align: left;
+    font-size: 1.25rem;
+    font-weight: 400;
+  }
+
 
 .article-align {
     text-align: left !important;
